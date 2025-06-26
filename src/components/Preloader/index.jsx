@@ -5,7 +5,8 @@ import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { opacity, slideUp } from './anim';
 
-const words = ["Hello", "Bonjour", "Ciao", "Olà", "やあ", "Hallå", "Guten tag", "Hallo"]
+const words = ["Hello", "Bonjour", "Ciao", "مرحبا", "Olà", "やあ", "Hallå", "Guten tag", 
+ "Hola", "Merhaba", "Привет", "안녕",, ]
 
 export default function Index() {
     const [index, setIndex] = useState(0);
@@ -33,7 +34,7 @@ export default function Index() {
     }, [])
 
     useEffect(() => {
-        if (index == words.length - 1) return;
+        if (index == words.length - 2) return;
         setTimeout(() => {
             setIndex(index + 1)
         }, index == 0 ? 1000 : 150)
@@ -45,11 +46,11 @@ export default function Index() {
     const curve = {
         initial: {
             d: initialPath,
-            transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1] }
+            transition: { duration: 4.9, ease: [0.76, 0, 0.24, 1] }
         },
         exit: {
             d: targetPath,
-            transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1], delay: 0.3 }
+            transition: { duration: 2.9, ease: [0.76, 0, 0.24, 1], delay: 0.3 }
         }
     };
 
