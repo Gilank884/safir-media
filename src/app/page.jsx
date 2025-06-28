@@ -8,6 +8,7 @@ import Projects from '../components/Projects';
 import Description from '../components/Description';
 import SlidingImages from '../components/SlidingImages';
 import Contact from '../components/Contact';
+import SlidingBrand from '../components/Slidingbrand';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -38,6 +39,7 @@ export default function Home() {
       </AnimatePresence>
       <Landing />
       <Description />
+      <SlidingBrand />
       <Projects />
       <SlidingImages />
       <Contact />

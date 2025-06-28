@@ -11,8 +11,8 @@ export const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "Gilang Prasetyo ~ Web Designer",
-  description: "Gilang Prasetyo's personal website",
+  title: "Safir Media",
+  description: "Safir Media Website",
 };
 
 export default function RootLayout({ children }) {

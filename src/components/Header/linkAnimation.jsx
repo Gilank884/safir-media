@@ -1,21 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import {  FaInstagram, FaWhatsapp,} from "react-icons/fa";
 
 export const RevealLinks = () => {
     return (
         <section className="flex flex-col md:flex-row mt-5 gap-5 text-white w-fit">
             <FlipLink
-                href="https://www.linkedin.com/in/gilang-prasetyo84/"
+                href="https://wa.me/628118129405"
                 hoverText="Connect"
-                Icon={FaLinkedin} // Pass the LinkedIn icon
+                Icon={FaWhatsapp} 
             >
-                Linkedin
+                WhatsApp
             </FlipLink>
-            <FlipLink href="https://github.com/Gilank884" hoverText="Coding" Icon={FaGithub}>
-                Github
-            </FlipLink>
-            <FlipLink href="https://www.instagram.com/lank_nalank/" hoverText="Cats❤️" Icon={FaInstagram}>
+           
+            <FlipLink href="https://www.instagram.com/safirmediakomunika/" hoverText="Cats❤️" Icon={FaInstagram}>
                 Instagram
             </FlipLink>
         </section>

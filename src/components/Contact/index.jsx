@@ -48,7 +48,7 @@ export default function IndexComponent() {
                         <h2>together</h2>
                     </div>
                     <motion.div style={{ x: isMobile ? 200 : x }} className={styles.buttonContainer}>
-                        <a href="mailto:gilankprasetyo8@gmail.com">
+                        <a href="mailto:Safirmediakom@gmail.com">
                             <Rounded backgroundColor={"#334BD3"} className={styles.button}>
                                 <p>Get in touch</p>
                             </Rounded>
@@ -59,9 +59,9 @@ export default function IndexComponent() {
                     </motion.svg>
                 </div>
                 <div className={styles.nav}>
-                    <a href='mailto:gilankprasetyo8@gmail.com'>
+                    <a href='mailto:Safirmediakom@gmail.com'>
                         <Rounded>
-                            <p>gilankprasetyo8@gmail.com</p>
+                            <p>Safirmediakom@gmail.com</p>
                         </Rounded>
                     </a>
                 </div>
@@ -81,19 +81,19 @@ export default function IndexComponent() {
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <Link href="https://www.instagram.com/lank_nalank/">
+                                <Link href="https://www.instagram.com/safirmediakomunika/">
                                     <p>Instagram</p>
                                 </Link>
                             </Magnetic>
                         </span>
                         <Magnetic>
-                            <Link href="https://www.linkedin.com/in/gilang-prasetyo84/">
-                                <p>Linkedin</p>
+                            <Link href="https://www.gmail.com/Safirmediakom@gmail.com/">
+                                <p>Email</p>
                             </Link>
                         </Magnetic>
                         <Magnetic>
-                            <Link href="https://github.com/gilank884">
-                                <p>Github</p>
+                            <Link href="https://wa.me/628118129405">
+                                <p>Whats App</p>
                             </Link>
                         </Magnetic>
                     </div>

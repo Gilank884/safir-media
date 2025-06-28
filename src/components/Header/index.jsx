@@ -58,9 +58,9 @@ export default function IndexComponent() {
                             <div className={styles.logo}>
                                 <p className={styles.copyright}>©</p>
                                 <div className={styles.name}>
-                                    <p className={styles.codeBy}>Code by</p>
-                                    <p className={styles.gilang}>Gilang</p>
-                                    <p className={styles.prasetyo}>Prasetyo</p>
+                                    <p className={styles.codeBy}>Safir</p>
+                                    <p className={styles.safir}>Media</p>
+                                    <p className={styles.media}>Home</p>
                                 </div>
                             </div>
                         </Magnetic>

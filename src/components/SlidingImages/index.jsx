@@ -7,42 +7,42 @@ import Link from 'next/link';
 const slider1 = [
     {
         color: "#d7d4cf",
-        src: "rentalmotor.png",
-        href: ""
+        src: "eventorganizer.jpeg",
+        href: "/"
     },
     {
         color: "#d7d4cf",
-        src: "cozy.png",
-        href: "https://cozy-adam.vercel.app/"
+        src: "eventproduction.jpg",
+        href: "/"
     },
     {
         color: "#d7d4cf",
-        src: "ratio.png",
-        href: "https://ratio-adam.vercel.app/"
+        src: "design.jpg",
+        href: "/"
     },
     {
         color: "#d7d4cf",
-        src: "jelajahkalbar.png",
-        href: "https://website-kalimantan-barat.vercel.app/"
+        src: "eventproduction3.jpeg",
+        href: "/"
     },
 ]
 
 const slider2 = [
     {
         color: "#d7d4cf",
-        src: "maven.jpg"
+        src: "eventproduction5.jpeg"
     },
     {
         color: "#e5e0e1",
-        src: "panda.jpg"
+        src: "layout.jpg"
     },
     {
         color: "#d7d4cf",
-        src: "powell.jpg"
+        src: "eventproduction8.jpeg"
     },
     {
         color: "#e1dad6",
-        src: "wix.jpg"
+        src: "eventorganizer6.jpeg"
     }
 ]
 

@@ -14,8 +14,8 @@ export default function Custom404() {
                 <div className="side"></div>
             </div>
             <div className="oops">
-                <h2>OOPS!</h2>
-                <p>We can&apos;t find the page that you&apos;re looking for &#58;&#40; &#41;</p>
+                <h2>SAFIR</h2>
+                <p>Can you&apos;skip this page&apos;please&#58;&#40; &#41;</p>
             </div>
             <div className="center-line">
                 <div className="hole">

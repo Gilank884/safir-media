@@ -9,32 +9,39 @@ import Rounded from '../../common/RoundedButton';
 
 export const projects = [
   {
-    title: "Cozy",
-    src: "/images/cozy.png",
+    title: "Event Organizer",
+    src: "/images/eventorganizer.jpeg",
     color: "#EFE8D3",
-    url: "https://cozy-adam.vercel.app/",
-    date: "14 des 2024"
+    url: "/eventorganizer",
+    date: "Organizing Some Of The Event"
   },
   {
-    title: "Rental Website",
-    src: "/images/rentalmotor.png",
-    color: "#ff4d33",
-    url: "https://rental-motor-kudus.vercel.app/",
-    date: "25 Apr 2025"
-  },
-  {
-    title: "Peristiwa Agency",
-    src: "/images/peristiwa.png",
-    color: "#21242b",
-    url: "https://peristiwaagency.netlify.app/",
-    date: "23 Juny 2025"
-  },
-  {
-    title: "Credible Universe",
-    src: "/images/credible.png",
+    title: "Event Production",
+    src: "/images/eventproduction.jpg",
     color: "#1E2A44",
-    url: "https://credibleuniverse.netlify.app/",
-    date: "23 April 2025"
+    url: "https://rental-motor-kudus.vercel.app/",
+    date: "Product Your Agenda"
+  },
+  {
+    title: "Company Profile",
+    src: "/images/companyprofile.jpg",
+    color: "#21242b",
+    url: "/companyprof",
+    date: "Video Profile Of Company"
+  },
+  {
+    title: "Design 3D",
+    src: "/images/design.jpg",
+    color: "#1E2A44",
+    url: "/design3d",
+    date: "Interior Or Exterior"
+  },
+   {
+    title: "Layout 3D",
+    src: "/images/layout.jpg",
+    color: "#1E2A44",
+    url: "/layout3d",
+    date: "Visual Design Event"
   },
 ];
 
@@ -97,7 +104,7 @@ export default function Home() {
       </div>
 
       <Rounded>
-        <p>More work</p>
+        <p>Our Service</p>
       </Rounded>
 
       <>
@@ -113,7 +120,7 @@ export default function Home() {
               const { src, color, url } = project;
               return (
                 <div className={styles.modal} style={{ backgroundColor: color }} key={`modal_${i}`}>
-                  <Link href={url} target="_blank" rel="noopener noreferrer">
+                  <Link href={url}>
                     <img
                       src={src}
                       width={300}

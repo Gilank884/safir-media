@@ -3,11 +3,14 @@
 import React from 'react';
 import styles from './style.module.scss';
 import Rounded from '../../common/RoundedButton';
-import Magnetic from '../../common/Magnetic';
 import Contact from '../../components/Contact';
 import { ReactLenis } from "@studio-freight/react-lenis";
 import { useRef, useEffect, useState } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
+import Landingabout from '../../components/Landingabout';
+import Slidingbrand from '../../components/Slidingbrand';
+import Descriptionfooter from '../../components/DescriptionFooter';
+import Slidingimages from '../../components/Slidingimages';
 
 export default function About() {
     const container = useRef(null);
@@ -60,8 +63,8 @@ export default function About() {
             <div className={`${styles.container} mx-[10%] mt-[15%]`}>
                 <div>
                     <h1>
-                        <span>Helping brands thrive <br /></span>
-                        <span>in the digital world</span>
+                        <span>The Agency Of<br /></span>
+                        <span>Safir Media Komunika</span>
                     </h1>
                 </div>
                 <div className={styles.title}>
@@ -80,10 +83,12 @@ export default function About() {
                         <path d="M8 8.5C8.27614 8.5 8.5 8.27614 8.5 8L8.5 3.5C8.5 3.22386 8.27614 3 8 3C7.72386 3 7.5 3.22386 7.5 3.5V7.5H3.5C3.22386 7.5 3 7.72386 3 8C3 8.27614 3.22386 8.5 3.5 8.5L8 8.5ZM0.646447 1.35355L7.64645 8.35355L8.35355 7.64645L1.35355 0.646447L0.646447 1.35355Z" fill="black" />
                     </motion.svg>
                     <h4 className='max-w-72 mb-5'>
-                        <span>I help companies from all over the world with tailor-made solutions. With each project, I push my work to new horizons, always putting quality first.</span>
+                        <span>PT Safir Media Komunika adalah creative event & production house yang menghadirkan
+                                pengalaman event yang kreatif, elegan, dan berkualitas.</span>
                     </h4>
                     <h4>
                         <span className="text-gray-400">Always exploring</span>
+                        <Landingabout/>
                         <motion.span
                             className="text-gray-400"
                             animate={{
@@ -140,7 +145,7 @@ export default function About() {
                 </div>
                 <div className={styles.helping}>
                     <h2>
-                        I can Help you with{' '}
+                        Siapa sih kami{' '}
                         <motion.span
                             className="text-gray-400"
                             animate={{
@@ -193,26 +198,23 @@ export default function About() {
                     </h2>
                 </div>
                 <div className="flex flex-col md:flex-row justify-between mb-[100px]">
-                    <div className='w-96'>
-                        <h4 className='text-gray-400 mb-8'>01</h4>
+                    <div className='w-196'>         
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Design</h3>
-                        <h4>With a solid track record in designing websites, I deliver strong and user-friendly digital designs.</h4>
-                    </div>
-                    <div className='w-96'>
-                        <h4 className='text-gray-400 mb-8'>02</h4>
-                        <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Development</h3>
-                        <h4>I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions and interaction. Building with Next.js, React or Typescript</h4>
-                    </div>
-                    <div className='w-96'>
-                        <h4 className='text-gray-400 mb-8'>03</h4>
-                        <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>✨The full package</h3>
-                        <h4>A complete website from concept to implementation, that&apos;s what makes me stand out. My great sense for design and my development skills enable me to create kick-ass projects.</h4>
-                    </div>
+                        <h3 className='text-[2em] mb-8'>PT.Safir Media komunika</h3>
+                        <h4>Dengan pengalaman lebih dari 15 tahun berkarya di industri
+                            event organizer dan event production, PT Safir Media Komunika hadir sebagai mitra
+                            andal dalam merancang dan mengeksekusi berbagai jenis acara secara kreatif,
+                            profesional, dan berdampak.Kami diperkuat oleh tim berpengalaman di bidang konsep acara, desain visual, konten
+                            digital, dan manajemen event dari awal hingga akhir. Mulai dari event korporat,
+                            launching produk, brand activation, hingga konser dan gathering—kami siap memberikan
+                            solusi yang tepat dan terintegrasi.</h4>
+                        </div>
                 </div>
             </div>
+                <Slidingbrand />
+                <br></br>
+            <Descriptionfooter />
+            <Slidingimages />
             <Contact />
         </ReactLenis>
     )

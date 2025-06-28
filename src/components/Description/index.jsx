@@ -3,9 +3,10 @@ import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
+import Link from 'next/link';
 
 export default function IndexComponent() {
-    const phrase = "Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.";
+    const phrase = "Safir Media Komunika adalah Jasa EO Profesional yang memberikan solusi kebutuhan event yang terintegrasi dalam satu atap.";
     const description = useRef(null);
     const isInView = useInView(description)
     return (
@@ -18,11 +19,13 @@ export default function IndexComponent() {
                     })
                 }
                 </p>
-                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>The combination of my passion for design, code & interaction positions me in a unique place in the web design world.</motion.p>
+                <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>Safir Media Komunika memberikan solusi lengkap, mulai dari konsep hingga detail teknis, venue, audio-visual, multimedia content.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
-                    <Rounded className={`${styles.button}`}>
-                        <p>About me</p>
-                    </Rounded>
+                    <Link href="/about" passHref>
+                      <Rounded className={`${styles.button}`}>
+                           <p>About Us</p>
+                     </Rounded>
+                    </Link>
                 </div>
             </div>
         </div>
