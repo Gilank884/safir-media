@@ -48,7 +48,7 @@ export default function IndexComponent() {
                         <h2>together</h2>
                     </div>
                     <motion.div style={{ x: isMobile ? 200 : x }} className={styles.buttonContainer}>
-                        <a href="mailto:Safirmediakom@gmail.com">
+                        <a href="https://wa.me/628118129405">
                             <Rounded backgroundColor={"#334BD3"} className={styles.button}>
                                 <p>Get in touch</p>
                             </Rounded>

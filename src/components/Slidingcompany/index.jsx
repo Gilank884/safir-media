@@ -7,12 +7,12 @@ import Link from 'next/link';
 const slider1 = [
     {
         color: "#d7d4cf",
-        src: "eventorganizer.jpeg",
+        src: "company1.jpeg",
         href: ""
     },
     {
         color: "#d7d4cf",
-        src: "eventorganizer2.jpeg",
+        src: "company2.jpeg",
         href: ""
     },
     {

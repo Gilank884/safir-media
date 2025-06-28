@@ -19,14 +19,14 @@ export const projects = [
     title: "Event Production",
     src: "/images/eventproduction.jpg",
     color: "#1E2A44",
-    url: "https://rental-motor-kudus.vercel.app/",
+    url: "eventproduction",
     date: "Product Your Agenda"
   },
   {
     title: "Company Profile",
-    src: "/images/companyprofile.jpg",
+    src: "/images/company1.jpeg",
     color: "#21242b",
-    url: "/companyprof",
+    url: "/companyprofile",
     date: "Video Profile Of Company"
   },
   {
