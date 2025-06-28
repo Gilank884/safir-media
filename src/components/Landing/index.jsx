@@ -49,6 +49,7 @@ export default function Home() {
         fill={true}
         alt="background"
         className="brightness-50"
+        style={{ objectFit: 'cover', zIndex: -1 }}
       />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
