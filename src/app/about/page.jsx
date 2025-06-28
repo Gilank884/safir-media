@@ -9,8 +9,8 @@ import { useRef, useEffect, useState } from 'react';
 import { useScroll, motion, useTransform } from 'framer-motion';
 import Landingabout from '../../components/Landingabout';
 import Slidingbrand from '../../components/Slidingbrand';
-import Descriptionfooter from '../../components/DescriptionFooter';
-import Slidingimages from '../../components/Slidingimages';
+import Descriptionfooter from '../../components/Descriptionfooter';
+import Slidingimages from '../../components/SlidingImages';
 
 export default function About() {
     const container = useRef(null);
