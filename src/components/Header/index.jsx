@@ -8,6 +8,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
+import Image from 'next/image';
+
 
 export default function IndexComponent() {
     const header = useRef(null);
@@ -55,15 +57,15 @@ export default function IndexComponent() {
                 <div ref={header} className={styles.header} id='header'>
                     <a href="/">
                         <Magnetic>
-                            <div className={styles.logo}>
-                                <p className={styles.copyright}>©</p>
-                                <div className={styles.name}>
-                                    <p className={styles.codeBy}>Safir</p>
-                                    <p className={styles.safir}>Media</p>
-                                    <p className={styles.media}>Home</p>
-                                </div>
-                            </div>
-                        </Magnetic>
+    <div className={styles.logo}>
+        <Image
+            src="/images/logo.png"
+            alt="Safir Media Logo"
+            width={40} // Ubah ukuran sesuai kebutuhan
+            height={40}
+        />
+    </div>
+</Magnetic>
                     </a>
                     <div className={styles.nav}>
                         
