@@ -76,10 +76,36 @@ export default function IndexComponent() {
           </div>
         ))}
       </motion.div>
+    <div className="px-6 md:px-20 pt-28">
+  <div className="font- flex flex-col md:flex-row justify-between mb-[120px] gap-16 text-center">
+    {/* Kartu 01 */}
+    <div className="w-96 mx-auto">
+      <h4 className="text-center text-3xl font- mb-8">9.8</h4>
+      <div className="w-full h-[2px] bg-gray-400 my-6 mx-auto"></div>
+      <h3 className="text-center text-3xl font- mb-8">Ratings</h3>
+    </div>
+
+    {/* Kartu 02 */}
+    <div className="w-96 mx-auto">
+      <h4 className="text-center text-3xl font- mb-8">50.000+</h4>
+      <div className="w-full h-[2px] bg-gray-400 my-6 mx-auto"></div>
+      <h3 className="text-center text-3xl font- mb-8">Clients</h3>
+    </div>
+
+    {/* Kartu 03 */}
+    <div className="w-96 mx-auto">
+      <h4 className="text-center text-3xl font- mb-8">1000+</h4>
+      <div className="w-full h-[2px] bg-gray-400 my-6 mx-auto"></div>
+      <h3 className="text-center text-3xl font- mb-8">Users</h3>
+    </div>
+  </div>
+</div>
+
 
       <motion.div style={{ height }} className={styles.circleContainer}>
         <div className={styles.circle}></div>
       </motion.div>
     </div>
+    
   );
 }

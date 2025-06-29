@@ -13,7 +13,11 @@ export const poppins = Poppins({
 export const metadata = {
   title: "Safir Media",
   description: "Safir Media Website",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (

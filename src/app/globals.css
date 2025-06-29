@@ -2,15 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* =============================
+   Custom Font: Open Sans
+   ============================= */
 @font-face {
   font-family: 'open-sans';
-  src: url('/assets/fonts/OpeningHoursSans-Regular.otf') format('otf');
+  src: url('/assets/fonts/OpeningHoursSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
   --font-open-sans: 'open-sans';
+  /* Tambahkan font lain jika perlu */
+  /* --font-poppins: 'Poppins'; */
 }
 
+/* =============================
+   Scrollbar Styling (WebKit only)
+   ============================= */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -35,19 +45,21 @@
   background-clip: content-box;
 }
 
+/* =============================
+   Global Body Styling
+   ============================= */
 body {
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* cegah scroll horizontal */
+  font-family: var(--font-open-sans), sans-serif;
+  background-color: #fff; /* opsional: tambahkan background */
+  color: #000; /* default text color */
 }
 
-@media screen and (max-width: 400px) {
-  body {
-    overflow-y: visible;
-  }
-}
-
+/* =============================
+   Font Utility Class
+   ============================= */
 .poppins {
   font-family: var(--font-poppins);
 }

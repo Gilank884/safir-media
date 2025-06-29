@@ -68,12 +68,12 @@ export default function IndexComponent() {
                 <div className={styles.info}>
                     <div className={styles.desc}>
                         <span>
-                            <h3>Version</h3>
-                            <p>2025 © Edition</p>
+                            <h3>Working Time</h3>
+                            <p>09:00 AM</p>
                         </span>
                         <span>
                             <h3>Local Time</h3>
-                            <p>12:00 PM WIB</p>
+                            <p>22:00 PM</p>
                         </span>
                     </div>
                     <div className="border border-white"></div>

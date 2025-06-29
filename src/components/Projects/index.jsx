@@ -10,28 +10,28 @@ import Rounded from '../../common/RoundedButton';
 export const projects = [
   {
     title: "Event Organizer",
-    src: "/images/eventorganizer.jpeg",
+    src: "/images/eobanner.jpeg",
     color: "#EFE8D3",
     url: "/eventorganizer",
     date: "Organizing Some Of The Event"
   },
   {
     title: "Event Production",
-    src: "/images/eventproduction.jpg",
+    src: "/images/epbanner.jpeg",
     color: "#1E2A44",
     url: "eventproduction",
     date: "Product Your Agenda"
   },
   {
     title: "Company Profile",
-    src: "/images/company1.jpeg",
+    src: "/images/cpbanner.jpeg",
     color: "#21242b",
     url: "/companyprofile",
     date: "Video Profile Of Company"
   },
   {
     title: "Design 3D",
-    src: "/images/design.jpg",
+    src: "/images/design3dbanner.jpeg",
     color: "#1E2A44",
     url: "/design3d",
     date: "Interior Or Exterior"
@@ -39,7 +39,7 @@ export const projects = [
    {
     title: "Layout 3D",
     src: "/images/layout.jpg",
-    color: "#1E2A44",
+    color: "#EFE8D3",
     url: "/layout3d",
     date: "Visual Design Event"
   },
