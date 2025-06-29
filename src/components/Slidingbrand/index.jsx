@@ -87,16 +87,16 @@ export default function IndexComponent() {
 
     {/* Kartu 02 */}
     <div className="w-96 mx-auto">
-      <h4 className="text-center text-3xl font- mb-8">50.000+</h4>
+      <h4 className="text-center text-3xl font- mb-8">550+</h4>
       <div className="w-full h-[2px] bg-gray-400 my-6 mx-auto"></div>
       <h3 className="text-center text-3xl font- mb-8">Clients</h3>
     </div>
 
     {/* Kartu 03 */}
     <div className="w-96 mx-auto">
-      <h4 className="text-center text-3xl font- mb-8">1000+</h4>
+      <h4 className="text-center text-3xl font- mb-8">5000+</h4>
       <div className="w-full h-[2px] bg-gray-400 my-6 mx-auto"></div>
-      <h3 className="text-center text-3xl font- mb-8">Users</h3>
+      <h3 className="text-center text-3xl font- mb-8">Volunteer</h3>
     </div>
   </div>
 </div>
