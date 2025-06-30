@@ -17,12 +17,12 @@ const slider1 = [
     },
     {
         color: "#d7d4cf",
-        src: "eventorganizer3.jpg",
+        src: "company3.jpeg",
         href: ""
     },
     {
         color: "#d7d4cf",
-        src: "eventorganizer4.jpeg",
+        src: "company4.jpeg",
         href: ""
     },
 ]
@@ -30,19 +30,19 @@ const slider1 = [
 const slider2 = [
     {
         color: "#d7d4cf",
-        src: "eventorganizer5.jpeg"
+        src: "company5.jpeg"
     },
     {
         color: "#e5e0e1",
-        src: "eventorganizer6.jpeg"
+        src: "company6.jpeg"
     },
     {
         color: "#d7d4cf",
-        src: "eventorganizer7.jpeg"
+        src: "company7.jpeg"
     },
     {
         color: "#e1dad6",
-        src: "eventorganizer8.jpg"
+        src: "company8.jpeg"
     }
 ]
 

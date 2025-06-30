@@ -63,8 +63,8 @@ export default function About() {
             <div className={`${styles.container} mx-[10%] mt-[15%]`}>
                 <div>
                     <h1>
-                        <span>Event<br /></span>
-                        <span>Organizer</span>
+                        <span>Company<br /></span>
+                        <span>Profile</span>
                     </h1>
                 </div>
                 <div className={styles.title}>
@@ -83,10 +83,10 @@ export default function About() {
                         <path d="M8 8.5C8.27614 8.5 8.5 8.27614 8.5 8L8.5 3.5C8.5 3.22386 8.27614 3 8 3C7.72386 3 7.5 3.22386 7.5 3.5V7.5H3.5C3.22386 7.5 3 7.72386 3 8C3 8.27614 3.22386 8.5 3.5 8.5L8 8.5ZM0.646447 1.35355L7.64645 8.35355L8.35355 7.64645L1.35355 0.646447L0.646447 1.35355Z" fill="black" />
                     </motion.svg>
                     <h4 className='max-w-72 mb-5'>
-                        <span>Di Safir Media Komunikasi, layanan Event Organizer kami hadir untuk mewujudkan acara impian Anda dengan perencanaan yang matang dan eksekusi yang sempurna.Kami mengelola segala detail, mulai dari konsep kreatif, anggaran, pemilihan vendor, hingga koordinasi di hari acara, seperti pernikahan, konser, seminar, atau acara korporat.</span>
+                        <span>Kami telah membangun reputasi sebagai mitra terpercaya yang membantu klien mencapai tujuan mereka melalui pendekatan strategis, kreatif, dan berorientasi pada hasil.</span>
                     </h4>
                     <h4>
-                        <span className="text-gray-400">Organizing Your Agenda</span>
+                        <span className="text-gray-400">Build Your Profile</span>
                         <motion.span
                             className="text-gray-400"
                             animate={{
@@ -143,7 +143,7 @@ export default function About() {
                 </div>
                 <div className={styles.helping}>
                     <h2>
-                        Event Organizer {' '}
+                        Company Profile{' '}
                         <motion.span
                             className="text-gray-400"
                             animate={{
@@ -199,40 +199,40 @@ export default function About() {
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>01</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Perencanaan Kreatif</h3>
-                        <h4>Kami merancang konsep acara yang unik dan sesuai dengan visi Anda, dari tema hingga detail estetika.</h4>
+                        <h3 className='text-[2em] mb-8'>Identitas Perusahaan</h3>
+                        <h4>Menyajikan informasi dasar seperti nama agensi, tahun berdiri, lokasi kantor, dan gambaran singkat tentang jenis bisnis.</h4>
                     </div>
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>02</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Personalisasi</h3>
-                        <h4>Setiap acara disesuaikan dengan kebutuhan dan preferensi klien, menciptakan pengalaman yang autentik.</h4>
+                        <h3 className='text-[2em] mb-8'>Visi dan Misi</h3>
+                        <h4>Menjelaskan tujuan jangka panjang (visi) agensi dan komitmen operasional (misi) untuk mencerminkan nilai dan arah strategis perusahaan.</h4>
                     </div>
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>03</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Eksekusi Profesional</h3>
-                        <h4>Tim kami mengawasi setiap aspek acara, memastikan kelancaran dari awal hingga akhir.</h4>
+                        <h3 className='text-[2em] mb-8'>Layanan Utama</h3>
+                        <h4>Merinci daftar layanan yang ditawarkan, seperti strategi pemasaran, desain grafis, pengembangan web, atau konsultasi bisnis, dengan penekanan pada manfaat bagi klien.</h4>
                     </div>
                 </div>
                    <div className="flex flex-col md:flex-row justify-between mb-[100px]">
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>04</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Manajemen Anggaran</h3>
-                        <h4>Kami mengelola anggaran secara transparan, memastikan efisiensi tanpa mengorbankan kualitas.</h4>
+                        <h3 className='text-[2em] mb-8'>Keunggulan Kompetitif</h3>
+                        <h4>Menonjolkan apa yang membuat agensi unik, seperti keahlian tim, pendekatan berbasis data, portofolio proyek sukses, atau testimoni klien.</h4>
                     </div>
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>05</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Koneksitivitas</h3>
-                        <h4>Kami memiliki koneksi dengan profesional terbaik di industri, seperti dekorator, teknisi audio-visual, dan penyedia layanan, untuk mendukung acara berkualitas tinggi.</h4>
+                        <h3 className='text-[2em] mb-8'>Nilai Dan Budaya</h3>
+                        <h4>Menguraikan nilai inti (misalnya, integritas, inovasi, kolaborasi) yang menjadi landasan operasional dan membentuk hubungan dengan klien.</h4>
                     </div>
                     <div className='w-96'>
                         <h4 className='text-gray-400 mb-8'>06</h4>
                         <div className="w-full h-[1px] bg-gray-400 mt-2 mb-8"></div>
-                        <h3 className='text-[2em] mb-8'>Beragam Acara</h3>
-                        <h4>Kami ahli mengelola berbagai jenis acara, seperti pernikahan, seminar, peluncuran produk, atau konser.</h4>
+                        <h3 className='text-[2em] mb-8'>Informasi Kontak dan Akses</h3>
+                        <h4>Menyediakan detail kontak (email, telepon, website) dan ajakan bertindak (CTA) untuk mendorong klien menghubungi atau menjelajahi lebih lanjut.</h4>
                     </div>
                 </div>
             </div>
