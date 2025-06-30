@@ -81,7 +81,7 @@ export default function IndexComponent() {
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <Link href="https://www.instagram.com/safirmediakomunika/">
+                                <Link href="https://www.instagram.com/pt.safirmedia_komunika/">
                                     <p>Instagram</p>
                                 </Link>
                             </Magnetic>
