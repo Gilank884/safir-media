@@ -10,7 +10,7 @@ export const RevealLinks = () => {
                 hoverText="Connect"
                 Icon={FaWhatsapp} 
             >
-                WhatsApp
+                Whats App
             </FlipLink>
            
             <FlipLink href="https://www.instagram.com/pt.safirmedia_komunika/" hoverText="Cats❤️" Icon={FaInstagram}>
