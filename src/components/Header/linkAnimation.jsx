@@ -13,7 +13,7 @@ export const RevealLinks = () => {
                 WhatsApp
             </FlipLink>
            
-            <FlipLink href="https://www.instagram.com/pt.safimedia_komunika/" hoverText="Cats❤️" Icon={FaInstagram}>
+            <FlipLink href="https://www.instagram.com/pt.safirmedia_komunika/" hoverText="Cats❤️" Icon={FaInstagram}>
                 Instagram
             </FlipLink>
         </section>
